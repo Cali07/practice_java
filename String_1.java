@@ -14,10 +14,10 @@ class String_1{
         System.out.println("______________");
         System.out.println(v1.equalsIgnoreCase(v2));
         System.out.println(v1.replace("e", "c"));
-        // compareTo, compareToIgnoreCase, concat ,equals, .equalsIgnoreCase(),replace
+        // compareTo, compareToIgnoreCase, concat ,equals, .equalsIgnoreCase(),replace, substing
         // char[] arr_1 = new char[v1.length()];
         String a_1[] = v1.split(" ");
-        System.out.println(a_1);
+        System.out.println(v1.substring(5));
 
 
         // string comparison sugetsed use equals not == unless you will be in type:Pool 
