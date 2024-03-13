@@ -10,6 +10,8 @@ class Hello_1{
         var1.lastIndexOf("life");
         System.out.println(var1.indexOf("life"));
 
+        
+
     }
 
 
