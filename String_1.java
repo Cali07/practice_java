@@ -1,6 +1,6 @@
-import java.util.ArrayList;
+// import java.util.ArrayList;
 
-import javax.print.DocFlavor.STRING;
+// import javax.print.DocFlavor.STRING;
 
 class String_1{
 
@@ -22,7 +22,7 @@ class String_1{
 
         // string comparison sugetsed use equals not == unless you will be in type:Pool 
 
-        String e1 = "Fresh";
+        String e1 = "           cal     Fresh                  ";
         String e2 = "Fresh";
 
         // have the sane pool but String e2 = new String("Fresh");
@@ -33,6 +33,10 @@ class String_1{
         else {
             System.out.println("IM not the same");
         }
+
+
+        // Today wiil be about the whole chapter 4 ,toLowerCase(), toUpperCase(),.trim()
+        System.out.println(e1);
 
 
     }
