@@ -1,5 +1,10 @@
 abstract class retro{
     abstract void calculate_1();
+    public void fm(){
+        //Concreate method cannot be changed unless modifed
+        //notice its not an abstract method
+    System.out.println("im a concreate class")
+    }
 }
 
 /**
@@ -38,6 +43,7 @@ public class Abstract_classes {
         clr.calculate_1();
         clr2.calculate_1();
         clr3.calculate_1();
+        clr.fm();
 
 
 
